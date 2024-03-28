@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: linear-gradient(#6fe664, #41d7f8);
+}
+
+.container {
+    height: 60vh;
+    width: 40vw;
+    border: 2px solid black;
+    margin-top: 10vh;
+    margin-left: 30%;
+    border-radius: 12px;
+}
+
+
+.top-side {
+    background-color: black;
+    height: 25%;
+    width: 100%;
+
+}
+
+
+.top-side input{
+    height: 30px;
+}
+
+
+.br {
+    height: 1px;
+    color: white;
+}
+
+
+.buttom-side {
+    background-color: rgb(54, 52, 52);
+    height: 75%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    width: 100%;
+
+
+}
+
+.items {
+    border: 2px solid green;
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20%;
+    cursor: pointer;
+    
+}
